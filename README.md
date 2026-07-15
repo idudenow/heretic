@@ -41,7 +41,7 @@ by human experts:
 | **[p-e-w/gemma-3-12b-it-heretic](https://huggingface.co/p-e-w/gemma-3-12b-it-heretic) (ours)** | **3/100** | **0.16** |
 
 The Heretic version, generated without any human effort, achieves the same
-level of refusal suppression as other abliterations, but at a much lower
+level of refusal suppress ion as other abliterations, but at a much lower
 KL divergence, indicating less damage to the original model's capabilities.
 *(You can reproduce those numbers using Heretic's built-in evaluation functionality,
 e.g. `heretic --model google/gemma-3-12b-it --evaluate-model p-e-w/gemma-3-12b-it-heretic`.
